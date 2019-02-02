@@ -1,0 +1,247 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+div.menu{
+	height: 70px;
+	width: 100%;
+	background-image: linear-gradient(to top, #00000000 0, #2d2d2d 130%);
+	font-family: Tw Cen Mt;
+	position: fixed;
+	top: 0;
+	right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+div.menu ul{
+	list-style-type: none; /*Menghilangkan bullet*/
+	overflow: hidden; /*Menghilangkan scroll bar*/
+	padding: 0; /*Jarak antara border dan content (jarak dalam)*/
+	margin: 0; /*Jarak antara tiap element (jarak luar)*/
+}
+
+div.menu ul li{
+	float: right; /*Posisi element dari kanan*/
+}
+
+div.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	padding: 20px 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+	display: block;
+	position: relative;
+}
+
+div.menu ul li a:hover{
+	border-top: 2px solid orangered;
+	color: orangered;
+}
+
+div.menu img{
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+div.header{
+	width: 100%;
+	height: 700px;
+	background: url(alun-alun\ mojokerto.jpg) no-repeat center;
+	background-size: cover;
+	float: left;
+}
+
+div.bayangan{
+	width: 100%;
+	height: 700px;
+	background: black;
+	float: left;
+	opacity: 0.5;
+}
+
+div.header h1{
+	position: absolute;
+	text-align: center;
+	color: orangered;
+	top: 120px;
+	left: 540px; 
+	font-size: 50px;
+	font-weight: 10;
+	font-family: Bahnschrift, sans-serif;
+}
+
+div.header h1 img{
+	width: 150px;
+	height: 150px;
+}
+
+div.header h3{
+	position: absolute;
+	text-align: center;
+	color:  orangered;
+	top: 380px;
+	left: 350px; 
+	font-size: 30px;
+	font-weight: 10;
+	font-family: Bahnschrift, sans-serif;
+}
+
+div.about{
+	width: 100%;
+	height: 500px;
+	padding: 0;
+	float: left;
+	background: url("kemah\ dlundung.jpg") no-repeat;
+	background-size: cover;
+
+}
+
+div.about .left{
+	width: 50%;
+	height: 100%;
+	float: left;
+	margin-top: 50px;
+}
+
+div.about .left h1{
+	padding-right: 45px;
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 10;
+	font-family: Bahnschrift, sans-serif;
+	border-right: 5px solid orangered;
+}
+
+div.about .left p{
+	font-family: Bahnschrift, sans-serif;
+	text-align: right;
+	margin-left: 20px;
+	color: red;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+div.about .right{
+	width: 45%;
+	height: 100%;
+	float: right;
+	margin-top: 50px;	
+}
+
+div.about .right img{
+	width: 400px;
+	height: auto;
+	margin-top: 5px;
+	margin-left: 20px;
+	border: 10px solid orangered;
+	border-radius: 15px;
+}
+
+
+
+.txt-1{
+	color: #d60000;
+}
+.txt-2{
+	color: #f79999;
+}
+.txt-3{
+	color: gray;
+}
+.txt-4{
+	color: black;
+}
+.txt-5{
+	color: red;
+}
+
+div.penghargaan{
+	width: 100%;
+	height: 900px;
+	margin-bottom: 100px;
+	background: url(ft1.jpg) no-repeat top;
+	/* margin-top: -50px; */
+	background-size: cover;
+	float: left;
+	position: relative;
+}
+
+div.penghargaan .gelap{
+	background: url("alun alun siang.jpg") no-repeat;
+	background-size: cover; 
+	height: 100%;
+	float: left;
+	
+}
+
+div.penghargaan .wisata{
+	width: 50%;
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+}
+div.penghargaan .wisata p{
+	color: white;
+	font-weight: 100;
+}
+
+div.penghargaan .wisata h3{
+	color: #f97257;
+}
+
+div.penghargaan .gelap{
+	text-align: center;
+	font-family: Bahnschrift, sans-serif;
+
+}
+
+div.penghargaan .wisata img{
+	width: 250px;
+	height: 210px;
+	margin-top: 30px;
+	border: 6px solid orangered;
+	border-radius: 5px; 
+}
+
+div.kuliner{
+	width: 100%;
+	float: left;
+	text-align: center;
+	height: 600px;
+	background: url("wader.jpg") no-repeat;
+	background-size: cover;
+}
+
+div.kuliner .gambar{
+	width: 25%;
+	float: left;
+}
+
+div.kuliner .gambar img{
+	width: 250px;
+	height: 210px;
+	border: 6px solid orangered;
+	border-radius: 5px;
+	margin-top: 50px;	 
+}
+
+div.kuliner .gambar h3{
+	font-family: Bahnschrift, sans-serif;
+	color: orangered;
+}
+
+div.kuliner .gambar p{
+	font-family: Bahnschrift, sans-serif;
+	color: white;
+	font-weight: 100;
+	padding-right: 20px;
+	
+}	
